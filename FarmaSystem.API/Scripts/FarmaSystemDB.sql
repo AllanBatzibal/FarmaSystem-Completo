@@ -1,0 +1,10 @@
+-- FarmaSystemDB ya existe en SQL Server (Capa 3).
+-- Este archivo es solo referencia documental; NO ejecutar para crear la base de datos.
+--
+-- Tablas: Categoria, Proveedor, Empleado, Cliente, Medicamento, Venta, DetalleVenta,
+--         Compra, DetalleCompra, MovimientoInventario
+--
+-- Vistas: vw_ResumenVentas, vw_ResumenCompras, vw_InventarioActual, vw_MovimientosCompletos
+--
+-- SPs: sp_RegistrarVenta, sp_AgregarDetalleVenta, sp_RegistrarCompra,
+--      sp_ConsultarInventario, sp_ReporteVentasPorPeriodo
