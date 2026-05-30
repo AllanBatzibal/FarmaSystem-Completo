@@ -148,3 +148,4 @@ C:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE 
 C:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\FarmaSystem.API\obj\Debug\net8.0\ref\FarmaSystem.API.dll
 C:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\FarmaSystem.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\FarmaSystem.API\obj\Debug\net8.0\FarmaSystem.API.sourcelink.json
+C:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\FarmaSystem.API\bin\Debug\net8.0\FarmaSystem.API.staticwebassets.runtime.json

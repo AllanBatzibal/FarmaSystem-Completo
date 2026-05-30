@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\backend\\FarmaSystem.Infrastructure\\FarmaSystem.Infrastructure.csproj": {}
+    "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\backend\\FarmaSystem.Infrastructure\\FarmaSystem.Infrastructure.csproj": {}
   },
   "projects": {
     "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\backend\\FarmaSystem.Core\\FarmaSystem.Core.csproj": {
@@ -69,14 +69,14 @@
         }
       }
     },
-    "c:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\backend\\FarmaSystem.Infrastructure\\FarmaSystem.Infrastructure.csproj": {
+    "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\backend\\FarmaSystem.Infrastructure\\FarmaSystem.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\backend\\FarmaSystem.Infrastructure\\FarmaSystem.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\backend\\FarmaSystem.Infrastructure\\FarmaSystem.Infrastructure.csproj",
         "projectName": "FarmaSystem.Infrastructure",
-        "projectPath": "c:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\backend\\FarmaSystem.Infrastructure\\FarmaSystem.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\backend\\FarmaSystem.Infrastructure\\FarmaSystem.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\oscba\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\backend\\FarmaSystem.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\backend\\FarmaSystem.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

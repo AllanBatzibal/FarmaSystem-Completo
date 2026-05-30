@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true,
+    "**/.git": true,
+    "**/node_modules": true
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "appsettings.json": "appsettings.*.json",
+    "package.json": "package-lock.json, vite.config.*, .env*"
+  },
+  "editor.formatOnSave": true
+}

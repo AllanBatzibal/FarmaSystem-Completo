@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FarmaSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac9780f5a5f4d2fd3c6bc5ccbb3a00bbeb351c45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79f627980429c53e262636da400ca4e922e509be")]
 [assembly: System.Reflection.AssemblyProductAttribute("FarmaSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FarmaSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

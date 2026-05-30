@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\assets\\index-DG4h9285.js",
+      "PackagePath": "staticwebassets\\assets\\index-DG4h9285.js"
+    },
+    {
+      "Id": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\assets\\index-XIxj2dod.css",
+      "PackagePath": "staticwebassets\\assets\\index-XIxj2dod.css"
+    },
+    {
+      "Id": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FarmaSystem.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FarmaSystem.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FarmaSystem.API.props",
+      "PackagePath": "build\\FarmaSystem.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FarmaSystem.API.props",
+      "PackagePath": "buildMultiTargeting\\FarmaSystem.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FarmaSystem.API.props",
+      "PackagePath": "buildTransitive\\FarmaSystem.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

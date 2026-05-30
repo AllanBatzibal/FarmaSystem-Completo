@@ -24,4 +24,11 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.3.0" />
   </ItemGroup>
 
+  <Target Name="BuildFrontend" BeforeTargets="Build" Condition="Exists('../farmasystem-frontend/package.json')">
+    <Message Text="Compilando frontend Vue.js..." Importance="high" />
+    <Exec Command="npm install" WorkingDirectory="../farmasystem-frontend" />
+    <Exec Command="npm run build" WorkingDirectory="../farmasystem-frontend" />
+    <Message Text="Frontend compilado correctamente en wwwroot/" Importance="high" />
+  </Target>
+
 </Project>

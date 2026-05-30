@@ -50,7 +50,7 @@ builder.Services.AddScoped<IInventarioService, InventarioService>();
 
 var corsOrigins = new[]
 {
-    builder.Configuration["Cors:AllowedOrigin"] ?? "http://localhost:5173",
+    builder.Configuration["Cors:AllowedOrigin"] ?? "http://localhost:5173/login",
     "http://127.0.0.1:5173"
 };
 builder.Services.AddCors(options =>
@@ -71,9 +71,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FarmaSystem API v1"));
 }
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
 app.UseCors("VuePolicy");
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+app.MapFallbackToFile("index.html");
 
 app.Run();
