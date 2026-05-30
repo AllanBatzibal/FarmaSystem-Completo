@@ -12,13 +12,13 @@ public static class DbStoredProcedures
         int idEmpleado,
         CancellationToken cancellationToken = default)
     {
+        var idVentaParam = new SqlParameter("@idVenta", SqlDbType.Int)
+        {
+            Direction = ParameterDirection.Output
+        };
+
         try
         {
-            var idVentaParam = new SqlParameter("@idVenta", SqlDbType.Int)
-            {
-                Direction = ParameterDirection.Output
-            };
-
             await context.Database.ExecuteSqlRawAsync(
                 "EXEC sp_RegistrarVenta @idCliente, @idEmpleado, @idVenta OUTPUT",
                 new[]
@@ -29,23 +29,21 @@ public static class DbStoredProcedures
                 },
                 cancellationToken);
 
-            if (idVentaParam.Value is int id)
-                return id;
-            if (idVentaParam.Value != null && idVentaParam.Value != DBNull.Value)
-                return Convert.ToInt32(idVentaParam.Value);
+            if (TryGetIntParameterValue(idVentaParam, out var idVenta))
+                return idVenta;
         }
         catch (SqlException)
         {
-            // Intentar variante con valor de retorno
+            // SP antiguo con solo 2 parámetros y RETURN
         }
 
-        var returnParam = new SqlParameter("@return", SqlDbType.Int)
+        var returnParam = new SqlParameter("@returnValue", SqlDbType.Int)
         {
             Direction = ParameterDirection.ReturnValue
         };
 
         await context.Database.ExecuteSqlRawAsync(
-            "EXEC @return = sp_RegistrarVenta @idCliente, @idEmpleado",
+            "EXEC sp_RegistrarVenta @idCliente, @idEmpleado",
             new[]
             {
                 returnParam,
@@ -54,7 +52,11 @@ public static class DbStoredProcedures
             },
             cancellationToken);
 
-        return Convert.ToInt32(returnParam.Value);
+        if (TryGetIntParameterValue(returnParam, out var idFromReturn))
+            return idFromReturn;
+
+        throw new InvalidOperationException(
+            "sp_RegistrarVenta no devolvió un identificador de venta válido.");
     }
 
     public static async Task AgregarDetalleVentaAsync(
@@ -82,13 +84,13 @@ public static class DbStoredProcedures
         string? nFactura,
         CancellationToken cancellationToken = default)
     {
+        var idCompraParam = new SqlParameter("@idCompra", SqlDbType.Int)
+        {
+            Direction = ParameterDirection.Output
+        };
+
         try
         {
-            var idCompraParam = new SqlParameter("@idCompra", SqlDbType.Int)
-            {
-                Direction = ParameterDirection.Output
-            };
-
             await context.Database.ExecuteSqlRawAsync(
                 "EXEC sp_RegistrarCompra @idProveedor, @idEmpleado, @nFactura, @idCompra OUTPUT",
                 new[]
@@ -100,23 +102,21 @@ public static class DbStoredProcedures
                 },
                 cancellationToken);
 
-            if (idCompraParam.Value is int id)
-                return id;
-            if (idCompraParam.Value != null && idCompraParam.Value != DBNull.Value)
-                return Convert.ToInt32(idCompraParam.Value);
+            if (TryGetIntParameterValue(idCompraParam, out var idCompra))
+                return idCompra;
         }
         catch (SqlException)
         {
-            // Intentar variante con valor de retorno
+            // SP antiguo con solo 3 parámetros y RETURN
         }
 
-        var returnParam = new SqlParameter("@return", SqlDbType.Int)
+        var returnParam = new SqlParameter("@returnValue", SqlDbType.Int)
         {
             Direction = ParameterDirection.ReturnValue
         };
 
         await context.Database.ExecuteSqlRawAsync(
-            "EXEC @return = sp_RegistrarCompra @idProveedor, @idEmpleado, @nFactura",
+            "EXEC sp_RegistrarCompra @idProveedor, @idEmpleado, @nFactura",
             new[]
             {
                 returnParam,
@@ -126,6 +126,26 @@ public static class DbStoredProcedures
             },
             cancellationToken);
 
-        return Convert.ToInt32(returnParam.Value);
+        if (TryGetIntParameterValue(returnParam, out var idFromReturn))
+            return idFromReturn;
+
+        throw new InvalidOperationException(
+            "sp_RegistrarCompra no devolvió un identificador de compra válido.");
+    }
+
+    private static bool TryGetIntParameterValue(SqlParameter parameter, out int value)
+    {
+        value = 0;
+        if (parameter.Value is int intValue)
+        {
+            value = intValue;
+            return value > 0;
+        }
+
+        if (parameter.Value == null || parameter.Value == DBNull.Value)
+            return false;
+
+        value = Convert.ToInt32(parameter.Value);
+        return value > 0;
     }
 }

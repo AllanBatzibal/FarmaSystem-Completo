@@ -49,4 +49,22 @@ public class ComprasController : ControllerBase
             return BadRequest(new { message = ex.Message });
         }
     }
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> Update(int id, [FromBody] ActualizarCompraDTO dto)
+    {
+        try
+        {
+            await _compraService.ActualizarCompraAsync(id, dto);
+            return Ok(new { message = "Compra actualizada" });
+        }
+        catch (InvalidOperationException ex)
+        {
+            return BadRequest(new { message = ex.Message });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { message = ex.Message });
+        }
+    }
 }

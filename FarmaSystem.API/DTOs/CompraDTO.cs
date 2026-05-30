@@ -81,3 +81,14 @@ public class CompraResumenMesDTO
     public decimal TotalCompras { get; set; }
     public int Cantidad { get; set; }
 }
+
+public class ActualizarCompraDTO
+{
+    [JsonPropertyName("idProveedor")]
+    public int IdProveedor { get; set; }
+
+    [JsonPropertyName("nFactura")]
+    public string NFactura { get; set; } = string.Empty;
+
+    public decimal Total { get; set; }
+}

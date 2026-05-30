@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W3TGhJH9VeyS5XojsGXD+s6N5vU04IpkQJiBvyTq+2Y=",
+  "Hash": "r901AgskRHzUuTd6PxjL/WDR+gSWWvr1hN1KzfUCXW0=",
   "Source": "FarmaSystem.API",
   "BasePath": "_content/FarmaSystem.API",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\assets\\index-DG4h9285.js",
+      "Identity": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\assets\\index-BWUT77jS.css",
       "SourceId": "FarmaSystem.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\",
       "BasePath": "_content/FarmaSystem.API",
-      "RelativePath": "assets/index-DG4h9285#[.{fingerprint}]?.js",
+      "RelativePath": "assets/index-BWUT77jS#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,19 +31,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fc4g3336pb",
-      "Integrity": "AQfQUXgiZDXYRDZFwbRZaH5UB/QWV+zuAUvakKAqBfA=",
+      "Fingerprint": "un7le6xwfx",
+      "Integrity": "CtBhRvqV1Uggr4krRoiyNz+gynHbR6uH3tReU/khFyI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-DG4h9285.js"
+      "OriginalItemSpec": "wwwroot\\assets\\index-BWUT77jS.css"
     },
     {
-      "Identity": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\assets\\index-XIxj2dod.css",
+      "Identity": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\assets\\index-C0XYfhtf.js",
       "SourceId": "FarmaSystem.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\",
       "BasePath": "_content/FarmaSystem.API",
-      "RelativePath": "assets/index-XIxj2dod#[.{fingerprint}]?.css",
+      "RelativePath": "assets/index-C0XYfhtf#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,11 +52,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qjmg7huxxg",
-      "Integrity": "JkEvfVRQS8BeiqP+O5xCXFy+ubvHbtg7v5nUWmD9qRs=",
+      "Fingerprint": "z8q1zueih0",
+      "Integrity": "I9aV0qzsdbRO7wlG39A1YI1cqBLUjN/rBM3gjKVXJ8k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\index-XIxj2dod.css"
+      "OriginalItemSpec": "wwwroot\\assets\\index-C0XYfhtf.js"
     },
     {
       "Identity": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\index.html",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "q7er9a586r",
-      "Integrity": "tuFD27OM8thx5xEgXEKqptBMvvadiceWbBfMWpVOg5M=",
+      "Fingerprint": "48ykkq3zxg",
+      "Integrity": "vOnK9G7LoP7ILn7aac3OSIT1LpcCkRm+7Svw5cKxZjw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -82,90 +82,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "assets/index-DG4h9285.fc4g3336pb.js",
-      "AssetFile": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\assets\\index-DG4h9285.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "143207"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AQfQUXgiZDXYRDZFwbRZaH5UB/QWV+zuAUvakKAqBfA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 30 May 2026 04:15:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fc4g3336pb"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/index-DG4h9285.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AQfQUXgiZDXYRDZFwbRZaH5UB/QWV+zuAUvakKAqBfA="
-        }
-      ]
-    },
-    {
-      "Route": "assets/index-DG4h9285.js",
-      "AssetFile": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\assets\\index-DG4h9285.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "143207"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AQfQUXgiZDXYRDZFwbRZaH5UB/QWV+zuAUvakKAqBfA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 30 May 2026 04:15:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-AQfQUXgiZDXYRDZFwbRZaH5UB/QWV+zuAUvakKAqBfA="
-        }
-      ]
-    },
-    {
-      "Route": "assets/index-XIxj2dod.css",
-      "AssetFile": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\assets\\index-XIxj2dod.css",
+      "Route": "assets/index-BWUT77jS.css",
+      "AssetFile": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\assets\\index-BWUT77jS.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -182,11 +100,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JkEvfVRQS8BeiqP+O5xCXFy+ubvHbtg7v5nUWmD9qRs=\""
+          "Value": "\"CtBhRvqV1Uggr4krRoiyNz+gynHbR6uH3tReU/khFyI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 30 May 2026 04:15:34 GMT"
+          "Value": "Sat, 30 May 2026 04:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -196,13 +114,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JkEvfVRQS8BeiqP+O5xCXFy+ubvHbtg7v5nUWmD9qRs="
+          "Value": "sha256-CtBhRvqV1Uggr4krRoiyNz+gynHbR6uH3tReU/khFyI="
         }
       ]
     },
     {
-      "Route": "assets/index-XIxj2dod.qjmg7huxxg.css",
-      "AssetFile": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\assets\\index-XIxj2dod.css",
+      "Route": "assets/index-BWUT77jS.un7le6xwfx.css",
+      "AssetFile": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\assets\\index-BWUT77jS.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -219,11 +137,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JkEvfVRQS8BeiqP+O5xCXFy+ubvHbtg7v5nUWmD9qRs=\""
+          "Value": "\"CtBhRvqV1Uggr4krRoiyNz+gynHbR6uH3tReU/khFyI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 30 May 2026 04:15:34 GMT"
+          "Value": "Sat, 30 May 2026 04:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -233,15 +151,142 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qjmg7huxxg"
+          "Value": "un7le6xwfx"
         },
         {
           "Name": "label",
-          "Value": "assets/index-XIxj2dod.css"
+          "Value": "assets/index-BWUT77jS.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JkEvfVRQS8BeiqP+O5xCXFy+ubvHbtg7v5nUWmD9qRs="
+          "Value": "sha256-CtBhRvqV1Uggr4krRoiyNz+gynHbR6uH3tReU/khFyI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-C0XYfhtf.js",
+      "AssetFile": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\assets\\index-C0XYfhtf.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I9aV0qzsdbRO7wlG39A1YI1cqBLUjN/rBM3gjKVXJ8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 30 May 2026 04:53:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I9aV0qzsdbRO7wlG39A1YI1cqBLUjN/rBM3gjKVXJ8k="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-C0XYfhtf.z8q1zueih0.js",
+      "AssetFile": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\assets\\index-C0XYfhtf.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I9aV0qzsdbRO7wlG39A1YI1cqBLUjN/rBM3gjKVXJ8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 30 May 2026 04:53:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z8q1zueih0"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/index-C0XYfhtf.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I9aV0qzsdbRO7wlG39A1YI1cqBLUjN/rBM3gjKVXJ8k="
+        }
+      ]
+    },
+    {
+      "Route": "index.48ykkq3zxg.html",
+      "AssetFile": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vOnK9G7LoP7ILn7aac3OSIT1LpcCkRm+7Svw5cKxZjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 30 May 2026 04:53:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "48ykkq3zxg"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vOnK9G7LoP7ILn7aac3OSIT1LpcCkRm+7Svw5cKxZjw="
         }
       ]
     },
@@ -264,11 +309,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tuFD27OM8thx5xEgXEKqptBMvvadiceWbBfMWpVOg5M=\""
+          "Value": "\"vOnK9G7LoP7ILn7aac3OSIT1LpcCkRm+7Svw5cKxZjw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 30 May 2026 04:15:34 GMT"
+          "Value": "Sat, 30 May 2026 04:53:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -278,52 +323,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tuFD27OM8thx5xEgXEKqptBMvvadiceWbBfMWpVOg5M="
-        }
-      ]
-    },
-    {
-      "Route": "index.q7er9a586r.html",
-      "AssetFile": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\FarmaSystem.API\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "595"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tuFD27OM8thx5xEgXEKqptBMvvadiceWbBfMWpVOg5M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 30 May 2026 04:15:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "q7er9a586r"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-tuFD27OM8thx5xEgXEKqptBMvvadiceWbBfMWpVOg5M="
+          "Value": "sha256-vOnK9G7LoP7ILn7aac3OSIT1LpcCkRm+7Svw5cKxZjw="
         }
       ]
     }

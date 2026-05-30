@@ -1,10 +1,15 @@
--- FarmaSystemDB ya existe en SQL Server (Capa 3).
--- Este archivo es solo referencia documental; NO ejecutar para crear la base de datos.
+-- FarmaSystemDB — Referencia de scripts SQL
 --
--- Tablas: Categoria, Proveedor, Empleado, Cliente, Medicamento, Venta, DetalleVenta,
---         Compra, DetalleCompra, MovimientoInventario
+-- ORDEN DE EJECUCIÓN EN SQL SERVER:
+--   1. database/schema/FarmaSystemDB.sql   → tablas, FKs, constraints
+--   2. Scripts/StoredProcedures.sql        → stored procedures (idempotente)
+--   3. Scripts/AuthUsuarios.sql            → usuarios de prueba (opcional)
 --
--- Vistas: vw_ResumenVentas, vw_ResumenCompras, vw_InventarioActual, vw_MovimientosCompletos
+-- Los SP usados por la API están definidos en StoredProcedures.sql:
+--   sp_RegistrarVenta, sp_AgregarDetalleVenta, sp_RegistrarDetalleVenta,
+--   sp_RegistrarCompra, sp_RegistrarDetalleCompra, sp_ConsultarInventario,
+--   sp_ReporteVentasPorPeriodo, sp_BuscarMedicamentos, sp_BuscarClientes,
+--   sp_ObtenerDashboard
 --
--- SPs: sp_RegistrarVenta, sp_AgregarDetalleVenta, sp_RegistrarCompra,
---      sp_ConsultarInventario, sp_ReporteVentasPorPeriodo
+-- Ejecutar SPs con:
+--   sqlcmd -S localhost -d FarmaSystemDB -E -i StoredProcedures.sql

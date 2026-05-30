@@ -1,40 +1,40 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/FarmaSystem.API/assets/index-DG4h9285.fc4g3336pb.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-DG4h9285.js'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/FarmaSystem.API/assets/index-BWUT77jS.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-BWUT77jS.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fc4g3336pb"},{"Name":"integrity","Value":"sha256-AQfQUXgiZDXYRDZFwbRZaH5UB/QWV\u002BzuAUvakKAqBfA="},{"Name":"label","Value":"_content/FarmaSystem.API/assets/index-DG4h9285.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"143207"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022AQfQUXgiZDXYRDZFwbRZaH5UB/QWV\u002BzuAUvakKAqBfA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 May 2026 04:15:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CtBhRvqV1Uggr4krRoiyNz\u002BgynHbR6uH3tReU/khFyI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3071"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CtBhRvqV1Uggr4krRoiyNz\u002BgynHbR6uH3tReU/khFyI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 May 2026 04:53:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FarmaSystem.API/assets/index-DG4h9285.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-DG4h9285.js'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/FarmaSystem.API/assets/index-BWUT77jS.un7le6xwfx.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-BWUT77jS.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AQfQUXgiZDXYRDZFwbRZaH5UB/QWV\u002BzuAUvakKAqBfA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"143207"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022AQfQUXgiZDXYRDZFwbRZaH5UB/QWV\u002BzuAUvakKAqBfA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 May 2026 04:15:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"un7le6xwfx"},{"Name":"integrity","Value":"sha256-CtBhRvqV1Uggr4krRoiyNz\u002BgynHbR6uH3tReU/khFyI="},{"Name":"label","Value":"_content/FarmaSystem.API/assets/index-BWUT77jS.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3071"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CtBhRvqV1Uggr4krRoiyNz\u002BgynHbR6uH3tReU/khFyI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 May 2026 04:53:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FarmaSystem.API/assets/index-XIxj2dod.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-XIxj2dod.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/FarmaSystem.API/assets/index-C0XYfhtf.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-C0XYfhtf.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JkEvfVRQS8BeiqP\u002BO5xCXFy\u002BubvHbtg7v5nUWmD9qRs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3071"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022JkEvfVRQS8BeiqP\u002BO5xCXFy\u002BubvHbtg7v5nUWmD9qRs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 May 2026 04:15:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-I9aV0qzsdbRO7wlG39A1YI1cqBLUjN/rBM3gjKVXJ8k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"146332"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022I9aV0qzsdbRO7wlG39A1YI1cqBLUjN/rBM3gjKVXJ8k=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 May 2026 04:53:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FarmaSystem.API/assets/index-XIxj2dod.qjmg7huxxg.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-XIxj2dod.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/FarmaSystem.API/assets/index-C0XYfhtf.z8q1zueih0.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-C0XYfhtf.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qjmg7huxxg"},{"Name":"integrity","Value":"sha256-JkEvfVRQS8BeiqP\u002BO5xCXFy\u002BubvHbtg7v5nUWmD9qRs="},{"Name":"label","Value":"_content/FarmaSystem.API/assets/index-XIxj2dod.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3071"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022JkEvfVRQS8BeiqP\u002BO5xCXFy\u002BubvHbtg7v5nUWmD9qRs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 May 2026 04:15:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"z8q1zueih0"},{"Name":"integrity","Value":"sha256-I9aV0qzsdbRO7wlG39A1YI1cqBLUjN/rBM3gjKVXJ8k="},{"Name":"label","Value":"_content/FarmaSystem.API/assets/index-C0XYfhtf.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"146332"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022I9aV0qzsdbRO7wlG39A1YI1cqBLUjN/rBM3gjKVXJ8k=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 May 2026 04:53:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/FarmaSystem.API/index.48ykkq3zxg.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"48ykkq3zxg"},{"Name":"integrity","Value":"sha256-vOnK9G7LoP7ILn7aac3OSIT1LpcCkRm\u002B7Svw5cKxZjw="},{"Name":"label","Value":"_content/FarmaSystem.API/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"595"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022vOnK9G7LoP7ILn7aac3OSIT1LpcCkRm\u002B7Svw5cKxZjw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 May 2026 04:53:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/FarmaSystem.API/index.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tuFD27OM8thx5xEgXEKqptBMvvadiceWbBfMWpVOg5M="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"595"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022tuFD27OM8thx5xEgXEKqptBMvvadiceWbBfMWpVOg5M=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 May 2026 04:15:34 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/FarmaSystem.API/index.q7er9a586r.html">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q7er9a586r"},{"Name":"integrity","Value":"sha256-tuFD27OM8thx5xEgXEKqptBMvvadiceWbBfMWpVOg5M="},{"Name":"label","Value":"_content/FarmaSystem.API/index.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"595"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022tuFD27OM8thx5xEgXEKqptBMvvadiceWbBfMWpVOg5M=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 May 2026 04:15:34 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vOnK9G7LoP7ILn7aac3OSIT1LpcCkRm\u002B7Svw5cKxZjw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"595"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022vOnK9G7LoP7ILn7aac3OSIT1LpcCkRm\u002B7Svw5cKxZjw=\u0022"},{"Name":"Last-Modified","Value":"Sat, 30 May 2026 04:53:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

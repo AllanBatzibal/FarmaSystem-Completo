@@ -131,6 +131,28 @@ public class CompraService : ICompraService
         }
     }
 
+    public async Task ActualizarCompraAsync(int id, ActualizarCompraDTO dto)
+    {
+        if (dto.IdProveedor <= 0)
+            throw new InvalidOperationException("Debe seleccionar un proveedor válido.");
+
+        if (string.IsNullOrWhiteSpace(dto.NFactura))
+            throw new InvalidOperationException("El número de factura es obligatorio.");
+
+        if (dto.Total < 0)
+            throw new InvalidOperationException("El total no puede ser negativo.");
+
+        var filas = await _context.Database.ExecuteSqlRawAsync(
+            "UPDATE Compra SET idProveedor = {0}, nFactura = {1}, total = {2} WHERE idCompra = {3}",
+            dto.IdProveedor,
+            dto.NFactura.Trim(),
+            dto.Total,
+            id);
+
+        if (filas == 0)
+            throw new InvalidOperationException($"Compra con ID {id} no encontrada.");
+    }
+
     private static List<CompraDTO> AgruparComprasDesdeVista(List<VwResumenCompras> filas)
     {
         return filas
