@@ -22,67 +22,48 @@ public class AuthService : IAuthService
 
     public async Task<LoginResponseDTO?> LoginAsync(LoginRequestDTO request)
     {
-        if (string.IsNullOrWhiteSpace(request.Usuario) || string.IsNullOrWhiteSpace(request.Contrasena))
+        if (string.IsNullOrWhiteSpace(request.Usuario) || 
+            string.IsNullOrWhiteSpace(request.Contrasena))
             return null;
 
-        var usuario = request.Usuario.Trim().ToLowerInvariant();
+        var usuarioNombre = request.Usuario.Trim().ToLowerInvariant();
         var contrasena = request.Contrasena;
 
-        var authUsers = _configuration.GetSection("Auth:Usuarios").Get<List<UsuarioAuthConfig>>() ?? new();
-        var match = authUsers.FirstOrDefault(u =>
-            u.Usuario.Equals(usuario, StringComparison.OrdinalIgnoreCase) &&
-            u.Contrasena == contrasena);
+        // Buscar usuario en la tabla Usuario de la base de datos
+        var usuarioDB = await _context.Usuarios
+            .Include(u => u.Empleado)
+            .Include(u => u.Rol)
+            .AsNoTracking()
+            .FirstOrDefaultAsync(u =>
+                u.UsuarioNombre.ToLower() == usuarioNombre &&
+                u.Contrasena == contrasena &&
+                u.Activo &&
+                u.Empleado.Activo);
 
-        Empleado? empleado = null;
-
-        if (match != null)
-        {
-            empleado = await _context.Empleados
-                .AsNoTracking()
-                .FirstOrDefaultAsync(e => e.IdEmpleado == match.IdEmpleado && e.Activo);
-
-            if (empleado == null)
-            {
-                empleado = await _context.Empleados
-                    .AsNoTracking()
-                    .Where(e => e.Activo)
-                    .OrderBy(e => e.IdEmpleado)
-                    .FirstOrDefaultAsync();
-            }
-        }
-        else
-        {
-            empleado = await _context.Empleados
-                .AsNoTracking()
-                .FirstOrDefaultAsync(e =>
-                    e.Activo &&
-                    (e.Nombre.ToLower() == usuario ||
-                     e.Telefono == usuario ||
-                     e.IdEmpleado.ToString() == usuario));
-        }
-
-        if (empleado == null)
+        if (usuarioDB == null)
             return null;
 
-        if (match == null)
+        // Actualizar ultimo acceso
+        var usuarioUpdate = await _context.Usuarios
+            .FirstOrDefaultAsync(u => u.IdUsuario == usuarioDB.IdUsuario);
+        if (usuarioUpdate != null)
         {
-            var clavePorDefecto = _configuration["Auth:ContrasenaPorDefecto"] ?? "1234";
-            if (contrasena != clavePorDefecto && contrasena != empleado.Telefono)
-                return null;
+            usuarioUpdate.UltimoAcceso = DateTime.Now;
+            await _context.SaveChangesAsync();
         }
 
-        var rol = NormalizarRol(empleado.Cargo, match?.Rol);
-        var token = GenerarToken(empleado, rol);
+        var rol = usuarioDB.Rol.Nombre;
+        var token = GenerarToken(usuarioDB.Empleado, rol);
 
         return new LoginResponseDTO
         {
             Token = token,
-            IdEmpleado = empleado.IdEmpleado,
-            Nombre = empleado.Nombre,
-            Apellido = empleado.Apellido,
-            NombreCompleto = $"{empleado.Nombre} {empleado.Apellido}".Trim(),
+            IdEmpleado = usuarioDB.Empleado.IdEmpleado,
+            Nombre = usuarioDB.Empleado.Nombre,
+            Apellido = usuarioDB.Empleado.Apellido,
+            NombreCompleto = $"{usuarioDB.Empleado.Nombre} {usuarioDB.Empleado.Apellido}".Trim(),
             Rol = rol,
-            Cargo = empleado.Cargo
+            Cargo = usuarioDB.Empleado.Cargo
         };
     }
 

@@ -13,4 +13,5 @@ public class Empleado
 
     public ICollection<Venta> Ventas { get; set; } = new List<Venta>();
     public ICollection<Compra> Compras { get; set; } = new List<Compra>();
+    public Usuario? Usuario { get; set; }
 }

@@ -16,11 +16,3 @@ public class LoginResponseDTO
     public string Rol { get; set; } = string.Empty;
     public string? Cargo { get; set; }
 }
-
-public class UsuarioAuthConfig
-{
-    public string Usuario { get; set; } = string.Empty;
-    public string Contrasena { get; set; } = string.Empty;
-    public int IdEmpleado { get; set; }
-    public string? Rol { get; set; }
-}

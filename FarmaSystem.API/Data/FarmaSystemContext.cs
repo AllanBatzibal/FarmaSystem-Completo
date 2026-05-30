@@ -26,6 +26,9 @@ public class FarmaSystemContext : DbContext
     public DbSet<VwResumenVentas> VwResumenVentas => Set<VwResumenVentas>();
     public DbSet<VwResumenCompras> VwResumenCompras => Set<VwResumenCompras>();
 
+    public DbSet<Rol> Roles => Set<Rol>();
+    public DbSet<Usuario> Usuarios => Set<Usuario>();
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         MapTablas(modelBuilder);
@@ -172,6 +175,36 @@ public class FarmaSystemContext : DbContext
             e.Property(x => x.Fecha).HasColumnName("fecha");
             e.Property(x => x.Motivo).HasColumnName("motivo");
             e.HasOne(x => x.Medicamento).WithMany(m => m.Movimientos).HasForeignKey(x => x.IdMedicamento);
+        });
+
+        modelBuilder.Entity<Rol>(e =>
+        {
+            e.ToTable("Rol");
+            e.HasKey(x => x.IdRol);
+            e.Property(x => x.IdRol).HasColumnName("idRol");
+            e.Property(x => x.Nombre).HasColumnName("nombre");
+            e.Property(x => x.Descripcion).HasColumnName("descripcion");
+            e.Property(x => x.Activo).HasColumnName("activo");
+        });
+
+        modelBuilder.Entity<Usuario>(e =>
+        {
+            e.ToTable("Usuario");
+            e.HasKey(x => x.IdUsuario);
+            e.Property(x => x.IdUsuario).HasColumnName("idUsuario");
+            e.Property(x => x.UsuarioNombre).HasColumnName("usuario");
+            e.Property(x => x.Contrasena).HasColumnName("contrasena");
+            e.Property(x => x.IdEmpleado).HasColumnName("idEmpleado");
+            e.Property(x => x.IdRol).HasColumnName("idRol");
+            e.Property(x => x.Activo).HasColumnName("activo");
+            e.Property(x => x.FechaCreacion).HasColumnName("fechaCreacion");
+            e.Property(x => x.UltimoAcceso).HasColumnName("ultimoAcceso");
+            e.HasOne(x => x.Empleado)
+                .WithOne(em => em.Usuario)
+                .HasForeignKey<Usuario>(x => x.IdEmpleado);
+            e.HasOne(x => x.Rol)
+                .WithMany(r => r.Usuarios)
+                .HasForeignKey(x => x.IdRol);
         });
     }
 
