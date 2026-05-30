@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0qZZddcNelk=",
+  "dgSpecHash": "sq9Q0bb+BHY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\backend\\FarmaSystem.Infrastructure\\FarmaSystem.Infrastructure.csproj",
+  "projectFilePath": "c:\\Users\\oscba\\OneDrive\\Escritorio\\UNIVERSIDAD 2026\\BASE DE DATOS\\PROYECTO BASE DE DATOS 2\\backend\\FarmaSystem.Infrastructure\\FarmaSystem.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oscba\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\oscba\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

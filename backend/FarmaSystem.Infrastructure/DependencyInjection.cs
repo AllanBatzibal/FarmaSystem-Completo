@@ -10,10 +10,13 @@ namespace FarmaSystem.Infrastructure;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
+    public static IServiceCollection AddInfrastructure(
+        this IServiceCollection services,
+        IConfiguration configuration,
+        string connectionString)
     {
         services.AddDbContext<FarmaSystemContext>(options =>
-            options.UseSqlServer(configuration.GetConnectionString("FarmaSystemDB")));
+            options.UseSqlServer(connectionString));
 
         services.AddAutoMapper(typeof(MappingProfile));
 
