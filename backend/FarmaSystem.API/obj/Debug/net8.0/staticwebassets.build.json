@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "vosdl55F7MCvNo9UIWQdJ7zHkRQ9AOjN5ybJHEvA8UY=",
+  "Source": "FarmaSystem.API",
+  "BasePath": "_content/FarmaSystem.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,11 @@
+-- Usuarios de prueba vinculados a Empleado (ajuste IdEmpleado según su BD)
+-- Los login se configuran en appsettings.json sección Auth:Usuarios
+--
+-- admin / admin123      → Administrador (idEmpleado 1)
+-- vendedor / vendedor123 → Vendedor      (idEmpleado 2)
+-- inventario / inventario123 → Inventario (idEmpleado 3)
+--
+-- Asegúrese que existan empleados con esos IDs y cargo acorde:
+-- UPDATE Empleado SET cargo = 'Administrador' WHERE idEmpleado = 1;
+-- UPDATE Empleado SET cargo = 'Vendedor' WHERE idEmpleado = 2;
+-- UPDATE Empleado SET cargo = 'Inventario' WHERE idEmpleado = 3;

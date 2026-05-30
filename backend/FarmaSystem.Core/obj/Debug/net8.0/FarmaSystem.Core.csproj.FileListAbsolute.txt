@@ -1,0 +1,12 @@
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Core\bin\Debug\net8.0\FarmaSystem.Core.deps.json
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Core\bin\Debug\net8.0\FarmaSystem.Core.dll
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Core\bin\Debug\net8.0\FarmaSystem.Core.pdb
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Core\obj\Debug\net8.0\FarmaSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Core\obj\Debug\net8.0\FarmaSystem.Core.AssemblyInfoInputs.cache
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Core\obj\Debug\net8.0\FarmaSystem.Core.AssemblyInfo.cs
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Core\obj\Debug\net8.0\FarmaSystem.Core.csproj.CoreCompileInputs.cache
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Core\obj\Debug\net8.0\FarmaSystem.Core.sourcelink.json
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Core\obj\Debug\net8.0\FarmaSystem.Core.dll
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Core\obj\Debug\net8.0\refint\FarmaSystem.Core.dll
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Core\obj\Debug\net8.0\FarmaSystem.Core.pdb
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Core\obj\Debug\net8.0\ref\FarmaSystem.Core.dll

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaSystem.Core", "FarmaSystem.Core\FarmaSystem.Core.csproj", "{D65970CD-F5CA-433C-88B5-CAE224B3B072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaSystem.Infrastructure", "FarmaSystem.Infrastructure\FarmaSystem.Infrastructure.csproj", "{D0982216-5ED9-404F-93ED-F5BC7B448D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaSystem.API", "FarmaSystem.API\FarmaSystem.API.csproj", "{BCEACD31-C041-4F04-81FA-00303BD6015C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaSystem.Tests", "FarmaSystem.Tests\FarmaSystem.Tests.csproj", "{F709B1B3-12A5-4D9E-B1DC-408D5C8C3F57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D65970CD-F5CA-433C-88B5-CAE224B3B072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65970CD-F5CA-433C-88B5-CAE224B3B072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65970CD-F5CA-433C-88B5-CAE224B3B072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65970CD-F5CA-433C-88B5-CAE224B3B072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0982216-5ED9-404F-93ED-F5BC7B448D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0982216-5ED9-404F-93ED-F5BC7B448D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0982216-5ED9-404F-93ED-F5BC7B448D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0982216-5ED9-404F-93ED-F5BC7B448D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCEACD31-C041-4F04-81FA-00303BD6015C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEACD31-C041-4F04-81FA-00303BD6015C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCEACD31-C041-4F04-81FA-00303BD6015C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEACD31-C041-4F04-81FA-00303BD6015C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F709B1B3-12A5-4D9E-B1DC-408D5C8C3F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F709B1B3-12A5-4D9E-B1DC-408D5C8C3F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F709B1B3-12A5-4D9E-B1DC-408D5C8C3F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F709B1B3-12A5-4D9E-B1DC-408D5C8C3F57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

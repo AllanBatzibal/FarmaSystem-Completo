@@ -1,0 +1,16 @@
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\bin\Debug\net8.0\FarmaSystem.Infrastructure.deps.json
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\bin\Debug\net8.0\FarmaSystem.Infrastructure.dll
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\bin\Debug\net8.0\FarmaSystem.Infrastructure.pdb
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\bin\Debug\net8.0\FarmaSystem.Core.dll
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\bin\Debug\net8.0\FarmaSystem.Core.pdb
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\obj\Debug\net8.0\FarmaSystem.Infrastructure.csproj.AssemblyReference.cache
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\obj\Debug\net8.0\FarmaSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\obj\Debug\net8.0\FarmaSystem.Infrastructure.AssemblyInfoInputs.cache
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\obj\Debug\net8.0\FarmaSystem.Infrastructure.AssemblyInfo.cs
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\obj\Debug\net8.0\FarmaSystem.Infrastructure.csproj.CoreCompileInputs.cache
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\obj\Debug\net8.0\FarmaSystem.Infrastructure.sourcelink.json
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\obj\Debug\net8.0\FarmaSys.93469515.Up2Date
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\obj\Debug\net8.0\FarmaSystem.Infrastructure.dll
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\obj\Debug\net8.0\refint\FarmaSystem.Infrastructure.dll
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\obj\Debug\net8.0\FarmaSystem.Infrastructure.pdb
+c:\Users\oscba\OneDrive\Escritorio\UNIVERSIDAD 2026\BASE DE DATOS\PROYECTO BASE DE DATOS 2\backend\FarmaSystem.Infrastructure\obj\Debug\net8.0\ref\FarmaSystem.Infrastructure.dll
